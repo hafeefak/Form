@@ -1,0 +1,21 @@
+.navbar{
+    display: flex;
+ 
+  padding: 16px 32px;
+  background:bisque;
+  color: white;
+  gap:40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+ 
+}
+.home{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:100vh
+
+}
