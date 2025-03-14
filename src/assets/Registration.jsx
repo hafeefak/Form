@@ -9,10 +9,10 @@ function Registration() {
     }
   return (
     <div className="form">
-    <form className="formcontainer">
+    <form  onSubmit={handleSubmit}className="formcontainer">
       <input type="text" placeholder="enter username " required></input>
       <input type="text" placeholder ="enter password" required></input>
-      <button onClick={handleSubmit}>Submit</button>
+      <button >Submit</button>
      </form>
      </div>
   )
